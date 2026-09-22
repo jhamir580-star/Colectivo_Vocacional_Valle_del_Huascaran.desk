@@ -1,0 +1,10 @@
+# Jekyll configuration to prevent build errors on GitHub Pages
+theme: []
+exclude:
+  - index.html/
+  - index.html/*
+  - node_modules
+  - src
+  - package.json
+  - tsconfig.json
+  - vite.config.ts
